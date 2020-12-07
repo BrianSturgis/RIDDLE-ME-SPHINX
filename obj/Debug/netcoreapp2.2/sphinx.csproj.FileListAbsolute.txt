@@ -1,0 +1,11 @@
+C:\Users\Owner\epicodus\sphinx\obj\Debug\netcoreapp2.2\sphinx.csprojAssemblyReference.cache
+C:\Users\Owner\epicodus\sphinx\obj\Debug\netcoreapp2.2\sphinx.csproj.CoreCompileInputs.cache
+C:\Users\Owner\epicodus\sphinx\obj\Debug\netcoreapp2.2\sphinx.AssemblyInfoInputs.cache
+C:\Users\Owner\epicodus\sphinx\obj\Debug\netcoreapp2.2\sphinx.AssemblyInfo.cs
+C:\Users\Owner\epicodus\sphinx\bin\Debug\netcoreapp2.2\sphinx.deps.json
+C:\Users\Owner\epicodus\sphinx\bin\Debug\netcoreapp2.2\sphinx.runtimeconfig.json
+C:\Users\Owner\epicodus\sphinx\bin\Debug\netcoreapp2.2\sphinx.runtimeconfig.dev.json
+C:\Users\Owner\epicodus\sphinx\bin\Debug\netcoreapp2.2\sphinx.dll
+C:\Users\Owner\epicodus\sphinx\bin\Debug\netcoreapp2.2\sphinx.pdb
+C:\Users\Owner\epicodus\sphinx\obj\Debug\netcoreapp2.2\sphinx.dll
+C:\Users\Owner\epicodus\sphinx\obj\Debug\netcoreapp2.2\sphinx.pdb
