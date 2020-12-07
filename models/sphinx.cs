@@ -1,10 +1,9 @@
 using System;
 using System.Collections.Generic;
 
-
+namespace Models{
 public class Sphinx 
 {
-
     public static Dictionary<string, string>  riddle = new Dictionary<string, string>() {
       {"blue", "What color is the sky?"}, 
       {"an egg", "What has to be broken before you can use it?"}, 
@@ -15,19 +14,6 @@ public class Sphinx
 
     public static List<string> riddleKeys = new List<string>{};
 
-    public static void Main(){
-      ListKeys();
-      string random = RandomRiddle();
-      Console.WriteLine("hello i am the Sphinx, here is a riddle. " + riddle[random]);
-      string input = Console.ReadLine();
-      string inputLower = input.ToLower();
-      if (riddle.ContainsKey(inputLower)){
-        Console.WriteLine("correct");
-      }else{
-        Console.WriteLine("Going to eat you");
-      }
-    }
-
     public void ListKeys()
         { 
             Dictionary<string, string>.KeyCollection keyColl = riddle.Keys;
@@ -35,11 +21,11 @@ public class Sphinx
               riddleKeys.Add(key);
             }
         }
-
     public string RandomRiddle()
         {
           Random rndm = new Random();
           string random = riddleKeys[rndm.Next(riddleKeys.Count)];
           return random;
         }
+}
 }
